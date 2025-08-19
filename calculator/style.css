@@ -1,0 +1,12 @@
+body{
+    border: 1px solid green;
+    padding: 10px;  
+}
+td, th {
+    border: 1px solid red; 
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
