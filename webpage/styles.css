@@ -1,15 +1,48 @@
 body{
-    background: #FF9B4D
+    background: #64b4ed;
+
+    background: linear-gradient(to bottom,rgba(100, 180, 237, 1) 0%, rgba(0, 114, 206, 1) 63%);    justify-content: center;
+   
 }
 
+.teamInfo {
+    display: flex;
+    flex-direction: row;   /* horizontal layout */
+    justify-content: center; /* centers content horizontally */
+    align-items: center;   /* centers content vertically */
+    margin: 10px;
+    background: transparent;
+    border: none;
+}
 #knicksTitle {
     text-align: center;
     color: navy
 }
 
-.Container{
+section{
+    background-color: transparent;
+}
 
+.Container {
+    background-color: #006bb6;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);    display: flex;
+    flex-direction:column;   /* stack items top to bottom */
+    align-items: center;      /* center them horizontally */
     border: solid blue 1px;
-    width: auto;
-    height: 200;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    border-radius: 10%;
+    padding: 20px;
+    min-width: 150px;
+    
+}
+#teamWebsite{
+    
+    text-align: center;
+
+}
+
+#knicks{
+    width: 150px;
 }
