@@ -1,0 +1,31 @@
+.container {  
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+    row-gap: 60px;
+
+
+ }
+ .boxes {
+   display: flex;
+    border: .1px solid;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+ }
+ #box1 { background-color: green; }
+ #box2 { background-color: yellow;
+ }
+ #box3 { background-color: pink; }
+ #box4 { background-color: blue; }
+ #box5 { background-color: red; }
+ #box6 { background-color: orange; }
+
+ 
+ 

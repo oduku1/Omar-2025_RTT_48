@@ -27,12 +27,15 @@ body {
   }
 
   .passwordBox {
-    background: lightblue;
+    background: rgba(209, 238, 219, 0.2);
+    border: 1px solid rgba(209, 238, 219, 0.14);
     width: 300px;
     height: 50vh;
     border: solid 2px black;
     border-radius: 5px;
-  
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+
   }
 
   form {
@@ -58,19 +61,22 @@ body {
   justify-content: center;
   width: 100px;
   padding: 8px 12px;
+  border-radius: 10px;
 
 }
 
 #logIn:hover{
   background: #e66465;
+  cursor: pointer;
 }
+
 p{
   text-align: center;
 }
-img {
-  display: inline-block;
+.socialLogin {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 15px;
   margin: auto;
   width: 25px;
   height: 25px;
